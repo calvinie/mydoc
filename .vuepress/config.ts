@@ -64,7 +64,7 @@ export default defineUserConfig({
           link: '/md/about/'
         }
       ],
-      repo: 'vuejs/vuepress',
+      repo: 'calvinie/mydoc',
       sidebar: false
   }),
   plugins: [
