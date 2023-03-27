@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-5899b005","path":"/md/ruankao/","title":"Ruankao","lang":"zh-CN","frontmatter":{"title":"Ruankao","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null}');export{a as data};

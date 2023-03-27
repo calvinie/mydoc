@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2956a2fe","path":"/md/ruankao/%E6%8A%80%E6%9C%AF%E7%B1%BB/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/","title":"计算机基础知识","lang":"zh-CN","frontmatter":{"title":"计算机基础知识","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null}');export{e as data};

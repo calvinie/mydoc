@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-412545f8","path":"/md/ruankao/%E6%8A%80%E6%9C%AF%E7%B1%BB/","title":"技术类","lang":"zh-CN","frontmatter":{"title":"技术类","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":10},"filePathRelative":null}');export{e as data};
