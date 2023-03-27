@@ -6,7 +6,6 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 
 export default defineUserConfig({
-    base: 'mydoc',
     lang: 'zh-CN',
     title: '学无止境！',
     description: '苦作乐！',
