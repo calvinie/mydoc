@@ -30,6 +30,33 @@ export default defineUserConfig({
           ],
         },
         {
+          text: '数据库',
+          children: [
+            {
+              text: '数据库基础和原理',
+              children: [
+                {
+                  text: '数据库原理',
+                  link: '/md/db/sql/',
+                },
+                {
+                  text: 'SQL语言',
+                  link: '/md/db/sql-lan/',
+                }
+              ]
+            },
+            {
+              text: '数据库',
+              children: [
+                {
+                  text: 'mysql',
+                  link: '/md/db/mysql/'
+                }
+              ]
+            },
+          ],
+        },
+        {
           text: '软考',
           children: [
                 {
@@ -60,12 +87,46 @@ export default defineUserConfig({
           ]
         },
         {
+          text: '工具',
+          children: [
+            {
+              text: 'VPN',
+              link: '/md/tools/vpn/'
+            }
+          ]
+        },
+        {
           text: '关于我',
           link: '/md/about/'
         }
       ],
       repo: 'calvinie/mydoc',
-      sidebar: false
+      sidebar: {
+        '/md/db/': [
+          {
+            text: '数据库基础和原理',
+            children: [
+              {
+                text: '数据库原理',
+                link: '/md/db/sql/',
+              },
+              {
+                text: 'SQL语言',
+                link: '/md/db/sql-lan/',
+              }
+            ]
+          },
+          {
+            text: '数据库',
+            children: [
+              {
+                text: 'mysql',
+                link: '/md/db/mysql/'
+              }
+            ]
+          }
+        ]
+      }
   }),
   plugins: [
   ]
