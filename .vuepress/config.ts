@@ -1,8 +1,10 @@
-import { link } from 'fs';
-import { text } from 'stream/consumers';
 import { defineUserConfig, defaultTheme } from 'vuepress';
 // import { hopeTheme } from './theme.js'
 import { hopeTheme } from "vuepress-theme-hope";
+import navbar from './public/json/navbar.json'
+import sidebar from './public/json/sidebar.json'
+import { tocPlugin } from '@vuepress/plugin-toc'
+
 
 
 export default defineUserConfig({
@@ -11,123 +13,13 @@ export default defineUserConfig({
     description: '苦作乐！',
     theme: hopeTheme({
       // 主题配置
-      navbar: [
-        {
-          text: '首页',
-          link: "/"
-        },
-        {
-          text: 'java',
-          children: [
-            {
-              text: '面向对象基础',
-              link: '/java/oop/',
-            },
-            {
-              text: '面向对象基础1',
-              link: '/java/oop/',
-            },
-          ],
-        },
-        {
-          text: '数据库',
-          children: [
-            {
-              text: '数据库基础和原理',
-              children: [
-                {
-                  text: '数据库原理',
-                  link: '/md/db/sql/',
-                },
-                {
-                  text: 'SQL语言',
-                  link: '/md/db/sql-lan/',
-                }
-              ]
-            },
-            {
-              text: '数据库',
-              children: [
-                {
-                  text: 'mysql',
-                  link: '/md/db/mysql/'
-                }
-              ]
-            },
-          ],
-        },
-        {
-          text: '软考',
-          children: [
-                {
-                text: '计算机基础知识',
-                children: [       
-                  {
-                    text: '操作系统知识',
-                    link: '/md/ruankao/技术类/计算机基础知识/操作系统基础/README.md',
-                  },           
-                    {
-                      text: '计算机基础',
-                      link: '/md/ruankao/技术类/计算机基础知识/计算机基础/'
-                    },
-                    {
-                      text: '计算机网络基础',
-                      link: '/md/ruankao/技术类/计算机基础知识/计算机网络基础/'
-                    },
-                    {
-                      text: '数据库基础',
-                      link: '/md/ruankao/技术类/计算机基础知识/数据库基础/'
-                    }
-                ]
-              },
-            {
-              text: '系统架构设计师',
-              link: '/md/about/'
-            }
-          ]
-        },
-        {
-          text: '工具',
-          children: [
-            {
-              text: 'VPN',
-              link: '/md/tools/vpn/'
-            }
-          ]
-        },
-        {
-          text: '关于我',
-          link: '/md/about/'
-        }
-      ],
+      navbar,
       repo: 'calvinie/mydoc',
-      sidebar: {
-        '/md/db/': [
-          {
-            text: '数据库基础和原理',
-            children: [
-              {
-                text: '数据库原理',
-                link: '/md/db/sql/',
-              },
-              {
-                text: 'SQL语言',
-                link: '/md/db/sql-lan/',
-              }
-            ]
-          },
-          {
-            text: '数据库',
-            children: [
-              {
-                text: 'mysql',
-                link: '/md/db/mysql/'
-              }
-            ]
-          }
-        ]
-      }
+      sidebar
   }),
   plugins: [
+    tocPlugin({
+      // 配置项
+    })
   ]
   })

@@ -1,0 +1,90 @@
+[
+    {
+      "text": "首页",
+      "link": "/md/"
+    },
+    {
+      "text": "java",
+      "children": [
+        {
+          "text": "面向对象基础",
+          "link": "/java/oop/"
+        }
+      ]
+    },
+    {
+      "text": "数据库",
+      "children": [
+        {
+          "text": "数据库基础和原理",
+          "children": [
+            {
+              "text": "数据库原理",
+              "link": "/md/db/sql/"
+            }
+          ]
+        },
+            {
+              "text": "SQL语言",
+              "children": [
+                {
+                  "text":"SQL语言-基础",
+                  "link": "/md/db/sql-lan/sql-lan.md"
+                }
+              ]
+            },
+        {
+          "text": "数据库",
+          "children": [
+            {
+              "text": "mysql",
+              "link": "/md/db/mysql/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "软考",
+      "children": [
+            {
+            "text": "计算机基础知识",
+            "children": [       
+              {
+                "text": "操作系统知识",
+                "link": "/md/ruankao/技术类/计算机基础知识/操作系统基础/README.md"
+              },           
+                {
+                  "text": "计算机基础",
+                  "link": "/md/ruankao/技术类/计算机基础知识/计算机基础/"
+                },
+                {
+                  "text": "计算机网络基础",
+                  "link": "/md/ruankao/技术类/计算机基础知识/计算机网络基础/"
+                },
+                {
+                  "text": "数据库基础",
+                  "link": "/md/ruankao/技术类/计算机基础知识/数据库基础/"
+                }
+            ]
+          },
+        {
+          "text": "系统架构设计师",
+          "link": "/md/about/"
+        }
+      ]
+    },
+    {
+      "text": "工具",
+      "children": [
+        {
+          "text": "VPN",
+          "link": "/md/tools/vpn/"
+        }
+      ]
+    },
+    {
+      "text": "关于我",
+      "link": "/md/about/"
+    }
+  ]

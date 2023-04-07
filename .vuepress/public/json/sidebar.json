@@ -1,0 +1,31 @@
+{
+    "/md/db/": [
+      {
+        "text": "数据库基础和原理",
+        "children": [
+          {
+            "text": "数据库原理",
+            "link": "/md/db/sql/"
+          }
+        ]
+      },
+      {
+        "text": "SQL语言",
+        "children":[
+            {
+                "text": "SQL语言-基础",
+                "link": "/md/db/sql-lan/sql-lan.md"
+            }
+        ]
+      },
+      {
+        "text": "数据库",
+        "children": [
+          {
+            "text": "mysql",
+            "link": "/md/db/mysql/"
+          }
+        ]
+      }
+    ]
+  }
