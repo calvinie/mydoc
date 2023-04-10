@@ -1,90 +1,124 @@
 [
-    {
-      "text": "java",
-      "children": [
-        {
-          "text": "面向对象基础",
-          "link": "/java/oop/"
-        }
-      ]
-    },
-    {
-      "text": "数据库",
-      "children": [
-        {
-          "text": "数据库基础和原理",
-          "children": [
-            {
-              "text": "数据库原理",
-              "link": "/md/db/sql/"
-            }
-          ]
-        },
-            {
-              "text": "SQL语言",
-              "children": [
-                {
-                  "text":"SQL语言-基础",
-                  "link": "/md/db/sql-lan/sql-lan.md"
-                },
-                {
-                    "text": "SQL-leetcode",
-                    "link": "/md/db/sql-lan/sql-lan-leetcode.md"
-                }
-              ]
-            },
-        {
-          "text": "数据库",
-          "children": [
-            {
-              "text": "mysql",
-              "link": "/md/db/mysql/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "软考",
-      "children": [
-            {
-            "text": "计算机基础知识",
-            "children": [       
-              {
-                "text": "操作系统知识",
-                "link": "/md/ruankao/技术类/计算机基础知识/操作系统基础/README.md"
-              },           
-                {
-                  "text": "计算机基础",
-                  "link": "/md/ruankao/技术类/计算机基础知识/计算机基础/"
-                },
-                {
-                  "text": "计算机网络基础",
-                  "link": "/md/ruankao/技术类/计算机基础知识/计算机网络基础/"
-                },
-                {
-                  "text": "数据库基础",
-                  "link": "/md/ruankao/技术类/计算机基础知识/数据库基础/"
-                }
-            ]
+  {
+    "text": "面试",
+    "children": [
+
+    ]
+  },
+  {
+    "text": "java",
+    "children": [
+      {
+        "text": "面向对象基础",
+        "link": "/java/oop/"
+      }
+    ]
+  },
+  {
+    "text": "数据库",
+    "children": [
+      {
+        "text": "数据库基础和原理",
+        "children": [
+          {
+            "text": "数据库原理",
+            "link": "/md/db/sql/"
+          }
+        ]
+      },
+      {
+        "text": "SQL语言",
+        "children": [
+          {
+            "text": "SQL语言-基础",
+            "link": "/md/db/sql-lan/sql-lan.md"
           },
-        {
-          "text": "系统架构设计师",
-          "link": "/md/about/"
-        }
-      ]
-    },
-    {
-      "text": "工具",
+          {
+            "text": "SQL语言-leetcode",
+            "link": "/md/db/sql-lan/sql-lan-leetcode.md"
+          },
+          {
+            "text": "SQL语言-SQL语句优化",
+            "link": "/md/db/sql-lan/sql-lan-optimize.md"
+          }
+        ]
+      },
+      {
+        "text": "数据库",
+        "children": [
+          {
+            "text": "mysql",
+            "link": "/md/db/mysql/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "开发",
+    "children":[]
+  },
+  {
+    "text": "Spring",
+    "children":[]
+  },
+  {
+    "text": "方法论",
+    "children":[]
+  },
+  {
+    "text": "产品｜团队",
+    "children":[{
+      "text": "技术之外",
       "children": [
         {
-          "text": "VPN",
-          "link": "/md/tools/vpn/"
+          "text": "技术之外我们应该思考什么",
+          "link": "/md/team/overview-besides-tech.md"
         }
       ]
-    },
-    {
-      "text": "关于我",
-      "link": "/md/about/"
-    }
-  ]
+    }]
+  },
+  {
+    "text": "软考",
+    "children": [
+      {
+        "text": "计算机基础知识",
+        "children": [
+          {
+            "text": "操作系统知识",
+            "link": "/md/ruankao/技术类/计算机基础知识/操作系统基础/README.md"
+          },
+          {
+            "text": "计算机基础",
+            "link": "/md/ruankao/技术类/计算机基础知识/计算机基础/"
+          },
+          {
+            "text": "计算机网络基础",
+            "link": "/md/ruankao/技术类/计算机基础知识/计算机网络基础/"
+          },
+          {
+            "text": "数据库基础",
+            "link": "/md/ruankao/技术类/计算机基础知识/数据库基础/"
+          }
+        ]
+      },
+      {
+        "text": "系统架构设计师",
+        "link": "/md/about/"
+      }
+    ]
+  },
+  {
+    "text": "工具",
+    "children": [
+      {
+        "text": "VPN",
+        "link": "/md/tools/vpn/"
+      }
+    ]
+  },
+  {
+    "text": "关于我",
+    "link": "/md/about/"
+  }
+]

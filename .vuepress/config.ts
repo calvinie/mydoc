@@ -9,7 +9,7 @@ import { tocPlugin } from '@vuepress/plugin-toc'
 
 export default defineUserConfig({
     lang: 'zh-CN',
-    title: '学无止境！',
+    title: 'Java全站知识体系',
     description: '苦作乐！',
     theme: hopeTheme({
       // 主题配置

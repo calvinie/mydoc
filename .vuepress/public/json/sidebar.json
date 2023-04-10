@@ -17,8 +17,12 @@
               "link": "/md/db/sql-lan/sql-lan.md"
           },
           {
-              "text": "SQL-leetcode",
+              "text": "SQL语言-leetcode",
               "link": "/md/db/sql-lan/sql-lan-leetcode.md"
+          },
+          {
+              "text": "SQL语言-SQL语句优化",
+              "link": "/md/db/sql-lan/sql-lan-optimize.md"
           }
         ]
       },
@@ -28,6 +32,17 @@
           {
             "text": "mysql",
             "link": "/md/db/mysql/"
+          }
+        ]
+      }
+    ],
+    "/md/team/": [
+      {
+        "text": "技术之外",
+        "children": [
+          {
+            "text": "技术之外我们应该思考什么",
+            "link": "/md/team/overview-besides-tech.md"
           }
         ]
       }

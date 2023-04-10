@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: null
-heroText: 学无止境
+heroText: Java全站知识体系
 tagline: 书山有路勤为径,学海无涯苦作舟
 actionText: 快速上手 →
 actions:
