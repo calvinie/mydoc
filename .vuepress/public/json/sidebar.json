@@ -12,10 +12,14 @@
       {
         "text": "SQL语言",
         "children":[
-            {
-                "text": "SQL语言-基础",
-                "link": "/md/db/sql-lan/sql-lan.md"
-            }
+          {
+              "text": "SQL语言-基础",
+              "link": "/md/db/sql-lan/sql-lan.md"
+          },
+          {
+              "text": "SQL-leetcode",
+              "link": "/md/db/sql-lan/sql-lan-leetcode.md"
+          }
         ]
       },
       {
