@@ -64,7 +64,21 @@
   },
   {
     "text": "方法论",
-    "children":[]
+    "children":[
+      {
+        "text": "代码规范",
+        "children": [
+          {
+            "text": "阿里巴巴 Java 开发手册",
+            "link": "/md/dev-spec/code-style/code-style-alibaba.md"
+          },
+          {
+            "text": "Google Java 编程风格指南",
+            "link": "/md/dev-spec/code-style/code-style-google.md"
+          }
+        ]
+      }
+    ]
   },
   {
     "text": "产品｜团队",
