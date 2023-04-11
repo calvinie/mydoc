@@ -1,65 +1,76 @@
 {
-    "/md/db/": [
-      {
-        "text": "数据库基础和原理",
-        "children": [
-          {
-            "text": "数据库原理",
-            "link": "/md/db/sql/"
-          }
-        ]
-      },
-      {
-        "text": "SQL语言",
-        "children":[
-          {
-              "text": "SQL语言-基础",
-              "link": "/md/db/sql-lan/sql-lan.md"
-          },
-          {
-              "text": "SQL语言-leetcode",
-              "link": "/md/db/sql-lan/sql-lan-leetcode.md"
-          },
-          {
-              "text": "SQL语言-SQL语句优化",
-              "link": "/md/db/sql-lan/sql-lan-optimize.md"
-          }
-        ]
-      },
-      {
-        "text": "数据库",
-        "children": [
-          {
-            "text": "mysql",
-            "link": "/md/db/mysql/"
-          }
-        ]
-      }
-    ],
-    "/md/team/": [
-      {
-        "text": "技术之外",
-        "children": [
-          {
-            "text": "技术之外我们应该思考什么",
-            "link": "/md/team/overview-besides-tech.md"
-          }
-        ]
-      }
-    ],
-    "/md/dev-spec/": [
-      {
-        "text": "代码规范",
-        "children": [
-          {
-            "text": "阿里巴巴 Java 开发手册",
-            "link": "/md/dev-spec/code-style/code-style-alibaba.md"
-          },
-          {
-            "text": "Google Java 编程风格指南",
-            "link": "/md/dev-spec/code-style/code-style-google.md"
-          }
-        ]
-      }
-    ]
-  }
+  "/md/db/": [
+    {
+      "text": "数据库基础和原理",
+      "children": [
+        {
+          "text": "数据库原理",
+          "link": "/md/db/sql/"
+        }
+      ]
+    },
+    {
+      "text": "SQL语言",
+      "children": [
+        {
+          "text": "SQL语言-基础",
+          "link": "/md/db/sql-lan/sql-lan.md"
+        },
+        {
+          "text": "SQL语言-leetcode",
+          "link": "/md/db/sql-lan/sql-lan-leetcode.md"
+        },
+        {
+          "text": "SQL语言-SQL语句优化",
+          "link": "/md/db/sql-lan/sql-lan-optimize.md"
+        }
+      ]
+    },
+    {
+      "text": "数据库",
+      "children": [
+        {
+          "text": "mysql",
+          "link": "/md/db/mysql/"
+        }
+      ]
+    }
+  ],
+  "/md/team/": [
+    {
+      "text": "技术之外",
+      "children": [
+        {
+          "text": "技术之外我们应该思考什么",
+          "link": "/md/team/overview-besides-tech.md"
+        }
+      ]
+    }
+  ],
+  "/md/dev-spec/": [
+    {
+      "text": "代码规范",
+      "children": [
+        {
+          "text": "阿里巴巴 Java 开发手册",
+          "link": "/md/dev-spec/code-style/code-style-alibaba.md"
+        },
+        {
+          "text": "Google Java 编程风格指南",
+          "link": "/md/dev-spec/code-style/code-style-google.md"
+        }
+      ]
+    }
+  ],
+  "/md/develop/": [
+    {
+      "text": "开发之常用类库",
+      "children": [
+        {
+          "text": "开发之常用类库-Lombok工具库详解",
+          "link": "/md/develop/package/lombok.md"
+        }
+      ]
+    }
+  ]
+}

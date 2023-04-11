@@ -1,9 +1,7 @@
 [
   {
     "text": "面试",
-    "children": [
-
-    ]
+    "children": []
   },
   {
     "text": "java",
@@ -56,15 +54,25 @@
   },
   {
     "text": "开发",
-    "children":[]
+    "children": [
+      {
+        "text": "开发之常用类库",
+        "children": [
+          {
+            "text": "开发之常用类库-Lombok工具库详解",
+            "link": "/md/develop/package/lombok.md"
+          }
+        ]
+      }
+    ]
   },
   {
     "text": "Spring",
-    "children":[]
+    "children": []
   },
   {
     "text": "方法论",
-    "children":[
+    "children": [
       {
         "text": "代码规范",
         "children": [
@@ -82,15 +90,17 @@
   },
   {
     "text": "产品｜团队",
-    "children":[{
-      "text": "技术之外",
-      "children": [
-        {
-          "text": "技术之外我们应该思考什么",
-          "link": "/md/team/overview-besides-tech.md"
-        }
-      ]
-    }]
+    "children": [
+      {
+        "text": "技术之外",
+        "children": [
+          {
+            "text": "技术之外我们应该思考什么",
+            "link": "/md/team/overview-besides-tech.md"
+          }
+        ]
+      }
+    ]
   },
   {
     "text": "软考",
