@@ -49,6 +49,15 @@
   ],
   "/md/dev-spec/": [
     {
+      "text": "开源协议",
+      "children": [
+        {
+          "text": "常见软件开源协议详解",
+          "link": "/md/dev-spec/opensource/opensource.md"
+        }
+      ]
+    },
+    {
       "text": "代码规范",
       "children": [
         {
