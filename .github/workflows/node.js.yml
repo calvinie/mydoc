@@ -27,6 +27,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
@@ -34,17 +36,6 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    
-#     - name: Deploy
-#       uses:  JamesIves/github-pages-deploy-action@v4
-#       with:
-#         # 指定密钥，即在第一步中设置的
-#         token: ${{ secrets.token }}
-#         # 部署到 gh-pages 分支
-#         branch: gh-pages
-#         # 部署目录为 VuePress 的默认输出目录，这里需要根据项目的目录进行修改
-#         folder: .vuepress/dist
-
     - name: Deploy
       uses:  JamesIves/github-pages-deploy-action@v4
       with:
