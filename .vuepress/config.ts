@@ -4,6 +4,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from './public/json/navbar.json'
 import sidebar from './public/json/sidebar.json'
 import { tocPlugin } from '@vuepress/plugin-toc'
+import { gitPlugin } from '@vuepress/plugin-git'
+
 
 
 
@@ -20,6 +22,7 @@ export default defineUserConfig({
   plugins: [
     tocPlugin({
       // 配置项
-    })
+    }),
+    gitPlugin({})
   ]
   })
