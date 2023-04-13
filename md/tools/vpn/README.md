@@ -7,3 +7,4 @@
 备用链接（推荐使用浏览器访问）：https://github.com/LetsGo666/LetsGo_3
 
 安装后打开填写我的ID：191914291 你能多得3天会员！
+- [glados](https://glados.rocks/console/checkin)
