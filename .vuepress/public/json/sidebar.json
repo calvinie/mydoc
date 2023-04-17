@@ -45,6 +45,19 @@
           "link": "/md/team/overview-besides-tech.md"
         }
       ]
+    },
+    {
+      "text": "个人成长",
+      "children": [
+        {
+          "text": "知识体系：如何构建自己的知识体系",
+          "link": "/md/team/person/tixi.md"
+        },
+        {
+          "text": "如何提问：提问的智慧",
+          "link": "/md/team/person/how-to-ask.md"
+        }
+      ]
     }
   ],
   "/md/dev-spec/": [
