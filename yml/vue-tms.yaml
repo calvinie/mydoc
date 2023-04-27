@@ -1,0 +1,65 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    name: vue-tms
+  name: vue-tms
+spec:
+  ports:
+  - name: port1
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    name: vue-tms
+  type: ClusterIP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    name: vue-tms
+  name: vue-tms
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: vue-tms
+  template:
+    metadata:
+      labels:
+        name: vue-tms
+    spec:
+      containers:
+      - image: registry-hz.rubikstack.com/lichen/vue-tms:0.0.1-2583a8fb-20230329
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 5
+          httpGet:
+            path: /actuator/health
+            port: 32518
+            scheme: HTTP
+          initialDelaySeconds: 60
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 5
+        name: vue-tms
+        ports:
+        - containerPort: 80
+          name: port1
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 5
+          httpGet:
+            path: /actuator/health
+            port: 32518
+            scheme: HTTP
+          initialDelaySeconds: 60
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 5
+        resources:
+          limits:
+            memory: 2Gi
+          requests:
+            memory: 0
