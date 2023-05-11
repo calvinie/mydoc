@@ -1,0 +1,12 @@
+@startuml
+
+title Composition
+
+class Company
+class DepartmentA
+class DepartmentB
+
+Company *-- DepartmentA
+Company *-- DepartmentB
+
+@enduml

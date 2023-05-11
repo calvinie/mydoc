@@ -1,0 +1,14 @@
+@startuml
+
+title Aggregation
+
+class Computer
+class Keyboard
+class Mouse
+class Screen
+
+Computer o-- Keyboard
+Computer o-- Mouse
+Computer o-- Screen
+
+@enduml

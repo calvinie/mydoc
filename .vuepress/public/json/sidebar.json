@@ -1,4 +1,15 @@
 {
+  "/md/java/": [
+    {
+      "text": "java基础",
+      "children": [
+        {
+          "text": "Java 基础 - 面向对象",
+          "link": "/md/java/basic/oop.md"
+        }
+      ]
+    }
+  ],
   "/md/db/": [
     {
       "text": "数据库基础和原理",
@@ -76,6 +87,14 @@
         {
           "text": "思维模型：查理芒格推荐的100个思维模型",
           "link": "/md/team/person/think-model.md"
+        },
+        {
+          "text": "年轻心态：张一鸣 - Stay hungry, Stay young",
+          "link": "/md/team/person/stay-young.md"
+        },
+        {
+          "text": "反内耗：停止心理内耗才能变更强",
+          "link": "/md/team/person/fanneihao.md"
         }
       ]
     }

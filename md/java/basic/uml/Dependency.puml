@@ -1,0 +1,19 @@
+@startuml
+
+title Dependency
+
+class Vehicle {
+    move(MoveBehavior)
+}
+
+interface MoveBehavior {
+    move()
+}
+
+note "MoveBehavior.move()" as N
+
+Vehicle ..> MoveBehavior
+
+Vehicle .. N
+
+@enduml

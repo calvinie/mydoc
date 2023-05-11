@@ -1,0 +1,10 @@
+@startuml
+
+title Association
+
+class School
+class Student
+
+School "1" - "n" Student
+
+@enduml
