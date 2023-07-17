@@ -2,12 +2,36 @@
   "/md/java/": [
     {
       "text": "java基础",
-      "children": [
-        {
-          "text": "Java 基础 - 面向对象",
-          "link": "/md/java/basic/oop.md"
-        }
-      ]
+        "children": [
+            {
+                "text": "Java 基础 - 面向对象",
+                "link": "/md/java/basic/oop.md"
+            },
+            {
+                "text": "Java 基础 - 知识点",
+                "link": "/md/java/basic/lan-basic.md"
+            },
+            {
+                "text": "Java 基础 - 反射机制详解",
+                "link": "/md/java/basic/reflection.md"
+            },
+            {
+                "text": "Java 基础 - 异常机制详解",
+                "link": "/md/java/basic/exception.md"
+            },
+            {
+                "text": "Java 基础 - 泛型机制详解",
+                "link": "/md/java/basic/generic.md"
+            },
+            {
+                "text": "Java 基础 - 注解机制详解",
+                "link": "/md/java/basic/annotation.md"
+            },
+            {
+                "text": "Java常用机制 - SPI机制详解",
+                "link": "/md/java/basic/spi.md"
+            }
+        ]
     }
   ],
   "/md/db/": [
